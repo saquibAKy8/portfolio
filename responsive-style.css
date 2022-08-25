@@ -1,0 +1,169 @@
+@media (max-width:1300px){
+    .max-width{
+        padding: 0 50px;
+    }
+
+    .projects .projects-content .left{
+        width: 100%;
+    }
+
+    .projects .projects-content .right{
+        width: 100%;
+    }
+
+    .projects .projects-content .left img{
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+        border-radius: 6px;
+    }
+
+    .projects .projects-content .right img{
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+        border-radius: 6px;
+    }
+}
+
+@media (max-width:1000px){
+    .max-width{
+        padding: 0 50px;
+    }
+
+    .mobile-nav-toggle {
+        display: block;
+      }
+    
+      .navbar ul {
+        display: none;
+      }
+
+      .home .home-content .text-1{
+        font-size: 72px;
+        text-align: center;
+    }
+    
+    .home .home-content .text-2{
+        font-size: 48px;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+    }
+
+    .max-width{
+        max-width: 900px;
+    }
+
+    .about .about-content .column{
+        width: 100%;
+    }
+
+    .about .about-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+
+    .about .about-content .right{
+        flex: 100%;
+    }
+}
+
+@media (max-width:750px){
+
+    .max-width{
+        padding: 0 50px;
+    }
+
+    .home .home-content .text-1{
+        font-size: 62px;
+        text-align: center;
+    }
+    
+    .home .home-content .text-2{
+        font-size: 38px;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+    }
+
+    .resume .resume-content .card{
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width:550px){
+
+    .max-width{
+        padding: 0 30px;
+    }
+
+    .home .home-content .text-1{
+        font-size: 52px;
+        text-align: center;
+    }
+    
+    .home .home-content .text-2{
+        font-size: 28px;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+    }
+
+    body{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:440px){
+    .max-width{
+        padding: 0 20px;
+    }
+
+    .home .home-content .text-1{
+        font-size: 42px;
+        text-align: center;
+    }
+    
+    .home .home-content .text-2{
+        font-size: 18px;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+    }
+}
+
+@media (max-width:360px){
+    .max-width{
+        padding: 0 10px;
+    }
+
+    .home .home-content .text-1{
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .home .home-content .text-2{
+        font-size: 12px;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+    }
+
+    .resume .resume-content .card{
+        width: 100%;
+    }
+}
+
+@media (max-width:300px){
+    .max-width{
+        padding: 0 50px;
+    }
+
+    .home .home-content .text-1{
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    .home .home-content .text-2{
+        font-size: 8px;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+    }
+}
